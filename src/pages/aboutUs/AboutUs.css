@@ -1,0 +1,62 @@
+.about-Us{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.about_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about_ustext{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+     
+}
+
+.text_h3{
+    color: rgb(103, 103, 199);
+    font-size: 20px;
+}
+
+.about_img {
+    height: 180px;
+    width: 110px;
+}
+
+.poly_img{
+    margin-top: 1.7rem;
+    position: absolute;
+    margin-left: 7rem;
+}
+
+.poligon {
+    clip-path: polygon(34% 0, 100% 14%, 100% 75%, 37% 96%);
+    background-color:  rgb(207, 225, 243);
+    height: 250px;
+    width: 240px;
+}
+
+.about_uspic{
+   
+    height: 250;
+    width: 250 ;
+    
+}
+
+.poly_shape{
+    display: flex;
+    position: relative;
+}
+
+.learn_more {
+    border: 1px solid rgb(255, 165, 0);
+    border-radius: 13px;
+    text-align: center;
+    width: max-content;
+    padding: 8px;
+    cursor: pointer;
+}

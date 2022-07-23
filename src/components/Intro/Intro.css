@@ -1,0 +1,126 @@
+.intro{
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    position: relative;
+}
+
+
+.div-intro{
+    clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 97%);
+    background-color: rgb(207, 225, 243);
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    width: 60%;  
+    position: relative;
+}
+
+.div-intro2 {
+    width: 20%;
+    position: relative;
+}
+
+.div-intro1{
+    clip-path: polygon(0 0, 74% 0, 75% 46%, 50% 53%);
+    background-color:  rgb(207, 225, 243);
+    width: 20%;
+    position: relative;
+    /* margin-left: -4rem; */   
+}
+
+.intro-text{
+    padding: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    line-height: 2.5rem;
+}
+
+.form_div{
+    display: flex;
+}
+
+.food-search{
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+    font-size: 10px;
+}
+
+.formdiv_text{
+    border: 1px solid black;
+    color: white;
+    font-size: 10px;
+    background-color: rgb(255, 165, 0);
+    width: 15%;
+    border-radius: 12px;
+    padding: 0rem;
+    align-self: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;   
+}
+.formdiv{
+    width: 40%;
+}
+.locat{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid black;
+    width: max-content;
+    background-color: rgb(121, 170, 121);
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+}
+.locat svg{
+    font-size: 15px;
+}
+
+.div_intro2_img{
+    clip-path: polygon(23% 13%, 77% 0, 78% 100%, 19% 93%);
+    height: 280px;
+    width: 250px;
+    position: absolute;
+    right: 15%;
+}
+
+.div_intro3_img{
+    clip-path: polygon(34% 0, 100% 14%, 100% 75%, 37% 96%);
+    height: 280px;
+    width: 250px;
+    position: absolute;
+    right: 31%;
+    top: 20%;
+}
+
+.div_into1_img{
+    clip-path: polygon(34% 0, 100% 14%, 100% 75%, 37% 96%);
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    right: 5%;
+    top: 20%;
+}
+
+.img_food1{
+     width: 260px;
+     height: 250px;
+     align-content: center;
+       
+}
+
+.img_food2{
+    width: 260px;
+    height: 250px;
+    align-content: center;
+      
+}
+

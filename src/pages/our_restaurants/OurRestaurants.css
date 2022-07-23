@@ -1,0 +1,78 @@
+.restaurant {
+    background-color: rgb(207, 225, 243);
+}
+
+.our_rest{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+.our_restaurant-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.our_restaurant-top h2{
+    color: rgb(103, 103, 199);
+    margin-top: 0.6rem;
+}
+
+.our-restaurants {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.our_buttons {
+    background-color: rgb(255, 165, 0);
+    width: max-content;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.restau_icon{
+    margin-top: 3px;
+}
+
+.restau_article{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px 10px 0 0;
+    gap: 1=0.5rem;
+    background-color: white;
+}
+
+.res_location{
+    height: 200px;
+    width: 250px;
+    border-radius: 15px 15px 0 0;
+}
+
+.image_text{
+    padding: 1rem;
+    gap: 5rem;
+    line-height: 2rem;
+    
+}
+
+.image_text h3{
+    color: rgb(103, 103, 199);
+}

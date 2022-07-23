@@ -1,0 +1,50 @@
+.top-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-right{
+    display: flex;
+    margin-right: 3rem;
+    gap: 3rem;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-top: 5px;   
+}
+
+.list a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-left{
+    display: flex;
+    margin-left: 3rem;
+    gap: 1rem;
+    color: rgb(152, 152, 197);
+}
+
+.button{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+    background-color: rgb(255, 165, 0);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+li{
+    color: rgb(152, 152, 197);
+}
+
+.delivery-icon{
+    color: rgb(255, 165, 0);
+}
